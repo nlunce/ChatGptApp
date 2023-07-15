@@ -20,7 +20,7 @@ namespace ChatGptApp
             //         break;
             // }
 
-            string apiKey = "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";
+            string apiKey = "";
             ApiKey = apiKey;
         }
         public string Execute()
