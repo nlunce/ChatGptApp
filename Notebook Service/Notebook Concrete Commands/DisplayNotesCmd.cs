@@ -19,6 +19,5 @@ namespace ChatGptApp
                 }
             Thread.Sleep(2000);
         }
-
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vEwT2fHsp8za96EHrFD9mGtIXyNnxWhNUvlxfWZAioZxpYSoeAhS85oSXFF7puZz+oGpMRVsQdwtTvD67KRxlg==",
+  "dgSpecHash": "MW4TF9kZaqK9+kEMwOLuvNcUtT9+UN2OTRWj8q7e9DOtObdhUdJF9rLe7DjgvbgeZHECnsfaPsjmmxUhhgxRbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj",
+  "projectFilePath": "c:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nater\\.nuget\\packages\\betalgo.openai.gpt3\\6.8.4\\betalgo.openai.gpt3.6.8.4.nupkg.sha512",
     "C:\\Users\\nater\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
