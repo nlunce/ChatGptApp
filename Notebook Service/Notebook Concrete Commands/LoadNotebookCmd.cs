@@ -44,11 +44,7 @@ namespace ChatGptApp
                         note.StoreNote(parts[0], parts[1], parts[2]);
                         _notebook.StoreNote(note);
                     };
-
-                    
-
                 }
-              
             }
             else
             {
@@ -57,8 +53,6 @@ namespace ChatGptApp
                 Console.ResetColor();
                 Thread.Sleep(2500);
             }
-
         }
-
     }
 }

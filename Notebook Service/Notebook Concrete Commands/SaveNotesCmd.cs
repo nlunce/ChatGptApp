@@ -7,12 +7,10 @@ namespace ChatGptApp
     {
         private Notebook _notebook;
         private string _fileName;
-
         public SaveNotesCmd(Notebook notebook)
         {
             _notebook = notebook;
         }
-
         public void Execute()
         {
             while (true)

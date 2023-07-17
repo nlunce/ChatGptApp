@@ -6,9 +6,7 @@ namespace ChatGptApp
 {
     public class GetApiKeyCmd : ICommand
     {
-        
         public string ApiKey { get; set; }
-
         public GetApiKeyCmd()
         {
             while (true)

@@ -8,7 +8,7 @@ namespace ChatGptApp
 {
     class RefactorNote
     {
-        private const string OpenAIEndpoint = "https://api.openai.com/v1/chat/completions";
+        private const string _openAIEndpoint = "https://api.openai.com/v1/chat/completions";
 
         public static async Task<string> GetRewrittenNoteAysnc(string message, Credentials credentials)
         {
@@ -29,7 +29,7 @@ namespace ChatGptApp
             string payloadJson = JsonConvert.SerializeObject(payload);
             var content = new StringContent(payloadJson, Encoding.UTF8, "application/json");
 
-            HttpResponseMessage response = await client.PostAsync(OpenAIEndpoint, content).ConfigureAwait(false);
+            HttpResponseMessage response = await client.PostAsync(_openAIEndpoint, content).ConfigureAwait(false);
             string responseString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
 
             try

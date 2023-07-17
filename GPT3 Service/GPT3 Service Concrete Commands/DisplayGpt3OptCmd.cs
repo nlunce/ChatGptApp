@@ -10,6 +10,5 @@ namespace ChatGptApp
             Console.Write("\nPlease select one of the following choices:\n1. Ask GPT3\n2. Main Menu\n> ");
 
         }
-
     }
 }

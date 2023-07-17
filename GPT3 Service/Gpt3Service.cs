@@ -21,9 +21,6 @@ namespace ChatGptApp
             GPT3MainMenuCmd gpt3MainMenuCmd = new();
             AskGpt3Cmd askGpt3Cmd= new(credentials);
 
-
-
-
             Dictionary<string, ICommandGpt3Service> commands = new()
             {
                 { "a", askGpt3Cmd},
@@ -59,7 +56,6 @@ namespace ChatGptApp
                     Console.WriteLine("Invalid command ");
                 }
             }
-
         }
     }
 }

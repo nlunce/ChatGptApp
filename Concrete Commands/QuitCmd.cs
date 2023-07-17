@@ -11,11 +11,9 @@ namespace ChatGptApp
             this._quit = true;
             
         }
-
         public bool IsQuit()
-    {
-        return _quit;
-    }
-
+        {
+            return _quit;
+        }
     }
 }

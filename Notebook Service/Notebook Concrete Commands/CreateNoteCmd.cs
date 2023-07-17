@@ -7,7 +7,6 @@ namespace ChatGptApp
     {
         private Notebook _notebook;
         private Credentials _credentials;
-        
         public CreateNoteCmd(Notebook notebook, Credentials credentials)
         {
             _notebook = notebook;
@@ -24,9 +23,6 @@ namespace ChatGptApp
 
             Console.Write("Note:\n> ");
             string input = Console.ReadLine() ?? string.Empty;
-
-            
-            
 
             while(true)
             {

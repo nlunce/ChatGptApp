@@ -12,10 +12,8 @@ namespace ChatGptApp
             
         }
         public bool IsQuit()
-    {
-        return _quit;
-    }
-
-
+        {
+            return _quit;
+        }
     }
 }

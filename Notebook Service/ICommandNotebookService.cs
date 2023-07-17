@@ -1,11 +1,10 @@
 namespace ChatGptApp
 {
     interface ICommandNotebookService
+    {
+        void Execute()
         {
-            void Execute()
-            {
-
-            }
 
         }
+    }
 }

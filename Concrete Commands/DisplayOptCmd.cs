@@ -8,8 +8,6 @@ namespace ChatGptApp
         public void Execute()
         {
             Console.Write("\nPlease select one of the following choices:\n1. Notes\n2. GPT3\n3. Quit\n> ");
-
         }
-
     }
 }
