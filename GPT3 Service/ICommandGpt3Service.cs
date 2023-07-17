@@ -1,6 +1,6 @@
 namespace ChatGptApp
 {
-    interface ICommand
+    interface ICommandGpt3Service
         {
             void Execute()
             {

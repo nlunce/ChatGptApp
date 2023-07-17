@@ -19,7 +19,7 @@ namespace ChatGptApp
 
         }
         
-        public void StoreEntry(Note note)
+        public void StoreNote(Note note)
         {
             if(!_notes.Contains(note))
             {

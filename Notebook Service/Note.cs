@@ -6,18 +6,22 @@ namespace ChatGptApp
 {
     public class Note
     {
-        public string _note = "";
+        public string _title = "";
         public string _date = "";
+        public string _note = "";
+        
 
          public string GetNoteAsString()
         {
-            return $"\nDate: {_date} \nResponse: {_note}";
+            return $"\n{_title} \nDate: {_date} \n{_note}";
         }
 
-        public void StoreNote(string date, string note)
+        public void StoreNote(string title, string date, string note)
         {
-            _note = note;
+            _title = title;
             _date = date;
+            _note = note;
+            
         }
         
 

@@ -11,17 +11,25 @@ namespace ChatGptApp
 
         public GetApiKeyCmd()
         {
-            // while (true)
-            // {
-            //     Console.Write("Please enter your API Key:\n> ");
-            //     ApiKey = Console.ReadLine();
+            while (true)
+            {
+                Console.Write("Please enter your API Key:\n> ");
+                string input = Console.ReadLine();
 
-            //     if (!string.IsNullOrWhiteSpace(ApiKey))
-            //         break;
-            // }
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\nError: Invalid API Key\n");
+                    Thread.Sleep(500);
+                    Console.ResetColor();
+                }
+                else
+                {
+                    ApiKey = input;   
+                    break;
+                }
 
-            string apiKey = "";
-            ApiKey = apiKey;
+            }
         }
         public string Execute()
         {
