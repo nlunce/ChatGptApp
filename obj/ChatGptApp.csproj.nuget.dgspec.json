@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj": {}
+    "c:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj": {
+    "c:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj",
+        "projectUniqueName": "c:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj",
         "projectName": "ChatGptApp",
-        "projectPath": "C:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj",
+        "projectPath": "c:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\ChatGptApp.csproj",
         "packagesPath": "C:\\Users\\nater\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\obj\\",
+        "outputPath": "c:\\Users\\nater\\OneDrive\\Documents\\School\\cs\\ChatGptApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nater\\AppData\\Roaming\\NuGet\\NuGet.Config",
